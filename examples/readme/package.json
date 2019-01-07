@@ -22,6 +22,13 @@
   },
   "homepage": "https://github.com/BoostIO/tachijs#readme",
   "dependencies": {
-    "tachijs": "^0.3.0"
+    "body-parser": "^1.18.3",
+    "class-validator": "^0.9.1",
+    "reflect-metadata": "^0.1.12",
+    "tachijs": "^0.3.0",
+    "tslib": "^1.9.3"
+  },
+  "devDependencies": {
+    "@types/body-parser": "^1.17.0"
   }
 }

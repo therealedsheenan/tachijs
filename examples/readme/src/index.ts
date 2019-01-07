@@ -117,6 +117,4 @@ const server = tachijs({
   container
 })
 
-console.log("Server listening at http://localhost:8000");
-
-server.listen(8000)
+server.listen(8000, () => console.log("Server listening at http://localhost:8000"))
