@@ -23,7 +23,7 @@
   "homepage": "https://github.com/BoostIO/tachijs#readme",
   "dependencies": {
     "reflect-metadata": "^0.1.12",
-    "tachijs": "^0.3.0",
+    "tachijs": "^0.4.1",
     "tslib": "^1.9.3"
   }
 }

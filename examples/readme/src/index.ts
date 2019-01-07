@@ -75,7 +75,7 @@ class HomeController extends BaseController {
 
   @httpPost('/notify')
   // Apply class validator so we can be sure body is valid
-  async notify(@reqBody() body: NotifyRequestBody) {
+  async notify(@reqBody(NotifyRequestBody) body: NotifyRequestBody) {
     await this.notifier.notifyMessage(body.message)
 
     return this.redirect('/')
