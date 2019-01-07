@@ -1,5 +1,5 @@
 // tslint:disable:no-console
-import { inject } from '../../../../src'
+import { inject } from 'tachijs'
 import { ServiceTypes } from './types'
 import { ChildService } from './ChildService'
 
