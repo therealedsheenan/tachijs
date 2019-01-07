@@ -9,7 +9,7 @@ import tachijs, {
   reqBody,
   inject,
   BaseController
-} from '../../'
+} from 'tachijs'
 import { IsString } from 'class-validator'
 import bodyParser from 'body-parser'
 
@@ -75,7 +75,7 @@ class HomeController extends BaseController {
 
   @httpPost('/notify')
   // Apply class validator so we can be sure body is valid
-  async notify(@reqBody(NotifyRequestBody) body: NotifyRequestBody) {
+  async notify(@reqBody() body: NotifyRequestBody) {
     await this.notifier.notifyMessage(body.message)
 
     return this.redirect('/')
@@ -116,5 +116,7 @@ const server = tachijs({
   controllers: [HomeController],
   container
 })
+
+console.log("Server listening at http://localhost:8000");
 
 server.listen(8000)

@@ -5,7 +5,7 @@ import {
   handlerParam,
   RedirectResult,
   inject
-} from '../../'
+} from '../../../src'
 import { MyService, ServiceTypes } from './services'
 
 @controller('/')

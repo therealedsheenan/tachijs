@@ -1,0 +1,27 @@
+{
+  "name": "tachijs-simple",
+  "version": "1.0.0",
+  "description": "Simple example for tachijs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node src/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BoostIO/tachijs.git"
+  },
+  "keywords": [
+    "simple-example",
+    "tachijs"
+  ],
+  "author": "Sheenan Tenepre",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BoostIO/tachijs/issues"
+  },
+  "homepage": "https://github.com/BoostIO/tachijs#readme",
+  "dependencies": {
+    "tachijs": "^0.3.0"
+  }
+}

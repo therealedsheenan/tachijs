@@ -1,5 +1,5 @@
 import 'reflect-metadata'
-import tachijs from '../../index'
+import tachijs from 'tachijs'
 import HomePageController from './HomePageController'
 import { ServiceTypes, MyService, ChildService } from './services'
 
@@ -15,4 +15,5 @@ const server = tachijs<Container>({
     [ServiceTypes.ChildService]: ChildService
   }
 })
+
 server.listen(8000)
