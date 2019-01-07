@@ -1,3 +1,4 @@
+// tslint:disable:no-console
 import 'reflect-metadata'
 import tachijs from 'tachijs'
 import HomePageController from './HomePageController'
@@ -16,4 +17,4 @@ const server = tachijs<Container>({
   }
 })
 
-server.listen(8000)
+server.listen(8000, () => console.log("Server listening at http://localhost:8000"))
