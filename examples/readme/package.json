@@ -25,10 +25,11 @@
     "body-parser": "^1.18.3",
     "class-validator": "^0.9.1",
     "reflect-metadata": "^0.1.12",
-    "tachijs": "^0.4.1",
-    "tslib": "^1.9.3"
+    "tachijs": "^0.4.1"
   },
   "devDependencies": {
-    "@types/body-parser": "^1.17.0"
+    "@types/body-parser": "^1.17.0",
+    "ts-node": "^7.0.1",
+    "typescript": "^3.2.2"
   }
 }
